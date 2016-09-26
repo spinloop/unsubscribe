@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/spinloop/unsubscribe/issues"
   },
-  "homepage": "https://github.com/spinloop/unsubscribe#readme"
+  "homepage": "https://github.com/spinloop/unsubscribe#readme",
+  "dependencies": {
+    "webpack": "^1.13.2"
+  }
 }
