@@ -1,0 +1,19 @@
+{
+  "name": "unsubscribe",
+  "version": "1.0.0",
+  "description": "return to sender",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinloop/unsubscribe.git"
+  },
+  "author": "chris eldridge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spinloop/unsubscribe/issues"
+  },
+  "homepage": "https://github.com/spinloop/unsubscribe#readme"
+}
