@@ -12,6 +12,7 @@
   },
   "author": "chris eldridge",
   "license": "MIT",
+  "private": true,
   "bugs": {
     "url": "https://github.com/spinloop/unsubscribe/issues"
   },
