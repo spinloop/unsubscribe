@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/spinloop/unsubscribe#readme",
   "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
     "webpack": "^1.13.2"
   }
 }
