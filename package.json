@@ -7,6 +7,7 @@
     "start": "npm run start:development",
     "start:development": "npm run build && npm run development-server",
     "development-server": "./bin/development-server.sh",
+    "heroku-postbuild": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:js && npm run build:css",
     "build:js": "./bin/build-js.sh",
