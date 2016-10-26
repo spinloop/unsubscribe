@@ -4,7 +4,7 @@
   "description": "return to sender",
   "main": "app.js",
   "scripts": {
-    "start": "npm run start:development",
+    "start": "node server.js",
     "start:development": "npm run build && npm run development-server",
     "development-server": "./bin/development-server.sh",
     "heroku-postbuild": "npm run build",
