@@ -1,0 +1,66 @@
+.crossfade
+  position: relative
+  height: 600px
+  +below(small-laptop-width)
+    height: 400px
+
+  +below(tablet-width)
+    height: 200px
+
+  .crossfade-item
+    position: absolute
+    width: 100%
+
+    opacity: 0
+    transition: opacity 1s ease-in-out
+
+    &.selected
+      opacity: 1
+
+    .screen
+      position: absolute
+      top: 25%
+      right: 0
+      bottom: 0
+      left: 0
+      background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.66) 100%)
+
+    .image
+      width: 100%
+      height: 600px
+      background-size: cover
+      background-position: center center
+
+      +below(small-laptop-width)
+        height: 400px
+
+      +below(tablet-width)
+        height: 200px
+
+    .crossfade-caption
+      position: absolute
+      bottom: 80px
+      left: 30px
+      right: 0
+      margin: 0 auto
+      max-width: 1200px
+      padding-right: 200px
+      font-size: 2.125em
+      font-weight: 400
+      color: white
+
+      +below(@max-width)
+        left: 50px
+        right: 50px
+
+      +below(small-laptop-width)
+        bottom: 40px
+        font-size: 2em
+        padding-right: 100px
+        font-size: 1.5em
+
+      +below(tablet-width)
+        bottom: 20px
+        font-size: 1.25em
+        padding-right: 50px
+        font-size: 1em

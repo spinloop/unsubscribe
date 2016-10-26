@@ -1,0 +1,28 @@
+.bio-section
+  background-color: #eee
+
+  p
+    margin-top: 0
+
+  .section-content
+    padding-bottom: 25px
+    display: flex
+    justify-content: center
+
+    +below(tablet-width)
+      flex-direction: column
+
+    .portrait
+      flex-basis: 50%
+      margin: auto
+      text-align: center
+
+      +below(tablet-width)
+        padding-bottom: 20px
+
+    .text
+      align-items: flex-end
+      margin-right: 5%
+
+      +below(tablet-width)
+        margin 0 5%
