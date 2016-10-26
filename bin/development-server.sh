@@ -2,5 +2,5 @@
 
 concurrently --kill-others \
   "stylus --watch src/stylesheets/app.styl -o build" \
-  "webpack-dev-server" \
+  "node server.js" \
   "webpack --watch" \
