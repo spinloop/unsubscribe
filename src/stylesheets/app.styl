@@ -1,38 +1,50 @@
-small-laptop-width = 1024px
-tablet-width = 768px
+@import 'utils/media-queries'
 
-below(breakpoint)
-  @media screen and (max-width: breakpoint - 1)
-    { block }
+@import "header"
+@import "hero"
+@import "slideshow"
+@import "form"
+@import "footer"
+@import "description"
+@import "bio"
+@import "inspiration"
 
 *, *:before, *:after
   box-sizing: border-box
 
 body
+  min-width: 375px
   width: 100%
   margin: auto
   color: #363636
   font-family: Open Sans, sans-serif
 
-.header
-  display: flex
-  align-items: center
-  max-width: 1200px
+section
+  margin-bottom: 50px
+
+  &#form-section, &.bio-section, &.slideshow
+    margin-bottom: 0
+
+.section-header
   margin: 0 auto
-  padding: 20px 10px
-  background-color: #FFFFFF
-  color: #608FC5
+  text-align: center
+  padding: 10px
 
   +below(tablet-width)
-    background-color: #e9e9e9
+    padding: 5px
 
-  nav
-    flex: 1
-    text-align: right
-    font-weight: 700
+  h2
+    margin-bottom: 30px
+    font-size: 2.625em
+    font-weight: 300
+    letter-spacing: 0
+    line-height: 1em
 
-    a
-      margin-left: 30px
+    +below(tablet-width)
+      font-size: 1.625em
 
-      &:hover
-        color: #90b1d6
+  h4
+    margin-bottom: 50px
+    font-size: 1.25em
+    letter-spacing: 0
+    line-height: 49px

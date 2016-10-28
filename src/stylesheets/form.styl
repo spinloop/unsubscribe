@@ -1,0 +1,70 @@
+#form-section
+  min-height: 100px
+
+input, textarea
+  -webkit-appearance: textfield
+  -moz-appearance: textfield
+  appearance: textfield
+
+#form
+  max-width: 800px
+  margin: 0 30%
+  text-align: left
+
+  +below(tablet-width)
+    margin: 0 5%
+
+.field-group
+  margin-bottom: 20px
+
+  +below(tablet-width)
+    padding: 0 10px
+
+label
+  display: block
+  font-size: 0.875em
+  font-weight: 300
+  color: #363636
+  letter-spacing: 0px
+  margin-bottom: 5px
+
+input, textarea
+  display: block
+  width: 100%
+  padding: 15px 5px
+
+.button
+  width: 100%
+  background-color: #608FC5
+  color: #fff
+  margin: 0 auto
+  display: block
+  border: none
+  padding: 20px 0
+  border-radius: 7px
+  margin-bottom: 40px
+  margin-top: 20px
+
+  +below(tablet-width)
+    border-radius: 0
+
+.text
+  font-size: 0.875em
+  font-weight: 300
+  letter-spacing: 0px
+
+  &.success
+    padding-bottom: 20px
+    text-align: center
+    color: #608fc5
+    font-weight: 500
+    font-size: 1.5em
+
+  &.error
+    color: red
+
+    +below(tablet-width)
+      padding: 0 10px
+
+.hide
+  visibility: hidden
