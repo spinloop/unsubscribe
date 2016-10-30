@@ -122,7 +122,7 @@ class Form extends React.Component {
   renderError() {
     return (
       <div className={this.errorClassName()}>
-        Name and email are required
+        A valid email is required.
       </div>
     );
   }
