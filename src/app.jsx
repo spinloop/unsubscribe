@@ -24,6 +24,14 @@ const App = () => (
         <header className="section-header">
           <h2>Alert me when your book is available!</h2>
         </header>
+        <div className="sub-header">
+          <p>
+          The forthcoming book <b>Unsubscribe</b>: <em>Your Key to Unlock The Door to Change</em> will be available soon.
+          </p>
+          <p>
+            Sign up now to be among the first to receive the published book
+          </p>
+        </div>
         <Form />
       </section>
       <Bio />
