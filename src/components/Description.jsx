@@ -3,7 +3,9 @@ import React from 'react';
 const Description = () => (
   <section id="description">
     <header className="section-header">
-      <h2>A job, a family and a house, on the surface appeared to be the American dream...</h2>
+      <h2>
+        A great job, a wonderful family and a nice house, on the surface appeared to be the American dream...
+      </h2>
     </header>
     <p>
       Keith however felt far from it. He was frustrated about how his life had become so busy
