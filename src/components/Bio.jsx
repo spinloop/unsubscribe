@@ -5,13 +5,7 @@ class Bio extends React.Component {
     return (
       <div>
         <p>
-          <b>Ross Newkirk</b> has worked as a personal assistant and property manager for a 13x New York Times bestselling author whom has sold over 50 million copies of his books.
-        </p>
-        <p>
-          Aside from that Ross has done a wide spectrum of things from raising South American ostriches to creating companies such as RNventions which sold aftermarket accessories for Jeeps.
-        </p>
-        <p>
-          In his free time Ross enjoys kayaking, hiking and meditation.
+          <b>Ross Newkirk</b> is an entrepreneur, inventor, and designer who has created products that make people’s lives easier, and developed companies like RNventions, which sold aftermarket accessories for Jeeps. He earned a degree in Agricultural Sciences from Penn State and has fostered South American ostriches, emus, and bees. An advocate for raising human consciousness, Ross enjoys meditation, kayaking, and hiking, and lives in New Hampshire.
         </p>
       </div>
     );
@@ -24,7 +18,9 @@ class Bio extends React.Component {
           <h2>About the Author</h2>
         </header>
         <div className="section-content">
-          <div className="portrait">[insert portrait]</div>
+          <div className="portrait">
+            <img src="https://s3-us-west-2.amazonaws.com/unsubscribe-book/portrait.jpg" alt="portrait" />
+          </div>
           <div className="text">{this.renderText()}</div>
         </div>
       </section>
