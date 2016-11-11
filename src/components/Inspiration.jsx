@@ -3,7 +3,7 @@ import React from 'react';
 const Inspiration = () => (
   <section className="inspiration-section">
     <header className="section-header">
-      <h2>Like many people, I had the tendency to get bogged down</h2>
+      <h2>Like many people, I had the tendency to get&nbsp;bogged&nbsp;down</h2>
     </header>
     <p>
       ...by both the accumulation of stuff and obligations. I often wished there was an “empty trash” button I could push that would make me feel light again. One evening it occurred to me while deleting junk emails that there was something that could help! I could Unsubscribe to things that I did not want and subscribe to things I did. This idea became the initial seed to the book <em>Unsubscribe</em>.
