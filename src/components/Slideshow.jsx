@@ -15,7 +15,7 @@ const items = [
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide4.jpg',
-    description: '"I love the idea of Unsubscribing. I think about it all the time now."',
+    description: '"I love what this book showed me so quickly."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide5.jpg',
@@ -31,7 +31,7 @@ const items = [
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide8.jpg',
-    description: '"Woke up the next morning thinking about what to Unsubscribe to!"',
+    description: '"Woke up the next morning thinking about what changes I could make right now"',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide9.jpg',
