@@ -1,12 +1,16 @@
 .bio-section
   background-color: #eee
+  padding: 40px 40px
+
+  > *
+    max-width: 1200px
+    margin: 0 auto
 
   p
     margin-top: 0
     margin-bottom: 0
 
   .section-content
-    padding: 0 15% 25px 15%
     display: flex
     justify-content: center
 
@@ -17,12 +21,13 @@
       flex-basis: 50%
       margin: auto
       text-align: center
+      padding-right: 30px
 
       +below(tablet-width)
+        padding-right: 0
         padding-bottom: 20px
 
       img
-        margin: 0 30px
         width:  175px
 
     .text
