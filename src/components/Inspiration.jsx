@@ -6,7 +6,7 @@ const Inspiration = () => (
       <h2>Like many people, I had the tendency to get&nbsp;bogged&nbsp;down</h2>
     </header>
     <p>
-      …I often wished for an easy way to help me feel less weighted down and more lightened up. One evening while attending to a tedious chore, an idea struck me that there was something that actually could help. This idea became the initial seed that grew into the book <b>Unsubscribe</b>: <em>Your Key to Unlock The Door to Change</em>.
+      …I often wished for an easy way to help me feel less weighed down and freer. One evening while attending to a tedious chore, an idea struck me that there was something that actually could help. This idea became the initial seed that grew into the book <b>Unsubscribe</b>: <em>Your Key to Unlock The Door to Change</em>.
     </p>
 
     <p>
