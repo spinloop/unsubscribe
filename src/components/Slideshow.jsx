@@ -46,7 +46,7 @@ class Slideshow extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(this.tick.bind(this), 5000);
+    this.interval = setInterval(this.tick.bind(this), 8000);
   }
 
   componentWillUnmount() {
