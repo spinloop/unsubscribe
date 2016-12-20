@@ -22,15 +22,10 @@ const App = () => (
       <Inspiration />
       <section id="form-section">
         <header className="section-header">
-          <h2>Alert me when your book is available!</h2>
+          <h2>Share how you have been Unsubscribing!</h2>
         </header>
         <div className="sub-header">
-          <p>
-          The forthcoming book <b>Unsubscribe</b>: <em>Your Key to Unlock The Door to Change</em> will be available soon.
-          </p>
-          <p>
-            Sign up now to be among the first to receive the published book
-          </p>
+          <p>You will also receive updates on this and other upcoming books!</p>
         </div>
         <Form />
       </section>
