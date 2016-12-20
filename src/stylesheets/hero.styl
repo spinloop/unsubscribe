@@ -1,6 +1,16 @@
 .hero
   flex: 1 0 auto
+  position: relative
 
   img
     width: 100%
-    
+
+.amazon-link
+  position: absolute
+  bottom: 10%
+  right: 0%
+
+  +below(tablet-width)
+    width: 100px
+    left: 0%
+    right: auto
