@@ -3,35 +3,35 @@ import React from 'react';
 const items = [
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide1.jpg',
-    description: '"This was an eye opener for me!"',
+    description: '"I woke up the next morning thinking about what changes I could make right now."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide2.jpg',
-    description: '"I have a list of people I will be buying this for."',
-  },
-  {
-    original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide3.jpg',
     description: '"This book will help a lot of people."',
   },
   {
+    original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide3.jpg',
+    description: '"UNSUBSCRIBE is a prescription for freeing ourselves from what no longer serves us."',
+  },
+  {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide4.jpg',
-    description: '"I love what this book showed me so quickly."',
+    description: '"This has made a huge difference in my life! I have a list of people I will be buying this for."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide5.jpg',
-    description: '"This book has made a huge difference in my life."',
+    description: '"Fantastic Book — Easy to read in one sitting."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide6.jpg',
-    description: '"Thank you. It was a delight!"',
+    description: '"At a time where everything is changing, UNSUBSCRIBE provides the perfect answer for the need to adapt and  simplify our lives."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide7.jpg',
-    description: '"Fantastic book. Easy to read in one sitting."',
+    description: `"This book has changed my family's life in so many positive ways. We now spend our time doing more of what we want to do."`,
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide8.jpg',
-    description: '"Woke up the next morning thinking about what changes I could make right now"',
+    description: '"I could not put it down! It shakes-up how I have been thinking."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide9.jpg',
@@ -46,7 +46,7 @@ class Slideshow extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(this.tick.bind(this), 5000);
+    this.interval = setInterval(this.tick.bind(this), 8000);
   }
 
   componentWillUnmount() {
