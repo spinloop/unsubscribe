@@ -5,12 +5,29 @@
   img
     width: 100%
 
-.amazon-link
-  position: absolute
-  bottom: 10%
-  right: 0%
+  h2
+    text-align: center
+    color: #608FC5
+    margin-top: 0
+    font-size: 1.3em
 
-  +below(tablet-width)
-    width: 100px
-    left: 0%
-    right: auto
+    +below(tablet-width)
+      font-size: 0.9em
+
+    &:hover
+      color: #90b1d6
+
+  a
+    text-decoration: none
+
+.hero-amazon-link
+    position: relative
+    width: 300px
+    padding-top: 20px
+    margin: auto
+
+    +below(tablet-width)
+      width: 200px
+
+    img
+      border-radius: 3px

@@ -11,7 +11,7 @@ const items = [
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide3.jpg',
-    description: '"UNSUBSCRIBE is a prescription for freeing ourselves from what no longer serves us."',
+    description: '"Unsubscribe is a prescription for freeing ourselves from what no longer serves us."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide4.jpg',
@@ -23,7 +23,7 @@ const items = [
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide6.jpg',
-    description: '"At a time where everything is changing, UNSUBSCRIBE provides the perfect answer for the need to adapt and  simplify our lives."',
+    description: '"At a time where everything is changing, Unsubscribe provides the perfect answer for the need to adapt and  simplify our lives."',
   },
   {
     original: 'https://s3-us-west-2.amazonaws.com/unsubscribe-book/slides/slide7.jpg',
