@@ -13,7 +13,7 @@ const Footer = () => (
         </a>
       </div>
       <div className="twitter">
-        <a href="https://twitter.com/Unsubscribebook" target="_blank">
+        <a href="https://twitter.com/Ross_Newkirk" target="_blank">
           <img
             src="https://s3-us-west-2.amazonaws.com/unsubscribe-book/social-icons/twitter.png"
             alt="twitter"
