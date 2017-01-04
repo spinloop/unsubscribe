@@ -7,7 +7,7 @@ const Hero = () => (
       alt="hero"
     />
     <div className="hero-amazon-link">
-      <a href="https://www.amazon.com/dp/1940129605/ref=sr_1_11?ie=UTF8&qid=1482080344&sr=8-11&keywords=unsubscribe" target="_blank">
+      <a href="https://www.amazon.com/UNSUBSCRIBE-Story-About-Profound-Discovery/dp/1940129605/ref=sr_1_sc_2?ie=UTF8&qid=1483495425&sr=8-2-spell&keywords=unsusbscribe&_encoding=UTF8&tag=unsubscribeco-20&linkCode=ur2&linkId=34b8339545cbc8fbf7c048ba77f7b346&camp=1789&creative=9325" target="_blank">
         <img
           src="/images/amazon-white.png"
           alt="amazon"
