@@ -9,6 +9,7 @@ import Description from './components/Description.jsx';
 import Hero from './components/Hero.jsx';
 import Bio from './components/Bio.jsx';
 import Inspiration from './components/Inspiration.jsx';
+import Video from './components/Video.jsx'
 
 const domNode = document.getElementById('react');
 
@@ -20,6 +21,7 @@ const App = () => (
       <Description />
       <Slideshow />
       <Inspiration />
+      <Video />
       <FormContainer />
       <Bio />
     </div>
