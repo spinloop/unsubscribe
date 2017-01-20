@@ -38,6 +38,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-image-gallery": "0.6.0",
+    "react-youtube": "^7.3.0",
     "stylus": "^0.54.5",
     "superagent": "^2.3.0",
     "vhost": "^3.0.2",
