@@ -1,11 +1,11 @@
 const path = require('path');
-
 const webpack = require('webpack');
+
 require('dotenv').load({ path: './.env' });
 
 const PATHS = {
   app: path.resolve('src'),
-  build: path.resolve('build'),
+  build: path.resolve('public'),
 };
 
 module.exports = {
