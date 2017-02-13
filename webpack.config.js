@@ -1,6 +1,6 @@
 const path = require('path');
-
 const webpack = require('webpack');
+
 require('dotenv').load({ path: './.env' });
 
 const PATHS = {
