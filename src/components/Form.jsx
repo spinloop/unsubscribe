@@ -12,7 +12,7 @@ class Form extends React.Component {
   }
 
   componentWillMount() {
-    this.wakeupServer();
+    // this.wakeupServer();
   }
 
   onSubmit(event) {
@@ -38,7 +38,6 @@ class Form extends React.Component {
   }
 
   wakeupServer() {
-    // wakeup hobby-level server if it is turned down
     const uri = `${process.env.CORE_URL_BASE}`;
     request.get(uri).end(() => {});
   }
